@@ -1,17 +1,17 @@
 [package]
-name = "smiles"
+name = "inchi"
 version = "0.0.0"
 authors = ["Aster <192607617@qq.com>"]
-description = "SMILES parser and drawer, Canonical SMILES writer"
-repository = "https://github.com/oovm/smiles"
-documentation = "https://docs.rs/smiles"
+description = "InChI parser"
+repository = "https://github.com/oovm/inchi"
+documentation = "https://docs.rs/inchi"
 readme = "Readme.md"
 license = "MPL-2.0"
 edition = "2021"
 exclude = ["package.json", "tests/**"]
 
 [dependencies]
-svg = "0.13.1"
+
 
 [dev-dependencies]
 
